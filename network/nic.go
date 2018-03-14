@@ -12,6 +12,6 @@ type Nic struct {
 	ID   string `xml:"id,attr"`
 	Name string `xml:"name"`
 	Mac  struct {
-		Address string `xml:"address"`
+		Address string `xml:"address,attr"`
 	} `xml:"mac"`
 }

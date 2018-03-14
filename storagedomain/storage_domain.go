@@ -15,7 +15,7 @@ type StorageDomain struct {
 	Available      float64 ` xml:"available"`
 	Committed      float64 `xml:"committed"`
 	Used           float64 `xml:"used"`
-	ExternalStatus string  `xml:"external_status"`
+	ExternalStatus string  `xml:"external_status>state"`
 	Master         bool    `xml:"master"`
 	DataCenters    struct {
 		DataCenter struct {
